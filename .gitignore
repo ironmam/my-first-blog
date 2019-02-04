@@ -1,0 +1,9 @@
+"""Guardamos los archivos que no queremos que GIT tengan en cuenta para publicar en el registro ya que no son tan necesarios"""
+
+*.pyc 
+*~
+__pycache__
+myvenv
+db.sqlite3
+/static
+.DS_Store

@@ -1,0 +1,41 @@
+Proyecto:
+	Crear blog
+
+Elementos necesarios para crear un blog
+Elementos que intervienen en un blog
+	Entradas, post o publicaciones, articulos, comentarios, puntuaciones, multimedia, inscripciones, historial, redes sociales, perfiles o adminisstracion de usuarios
+
+Funcionalidades adicionales
+	Encuestas, chat, mensajes privados
+
+
+		Entidades u objetos definidos
+			1- Usuarios
+				-Aministrador
+				-Otros
+			2- Post
+				-Se pueden crear post en borrador 
+
+		Definicion de los objetos
+			1-Usuarios
+				Creado por defecto por django
+
+			2- Post
+				Propiedades
+				-Titulo
+				-Autor
+				-Fecha/hora de creacion
+				-Contenido
+				-Estado de publicacion
+				--- 
+				-Categoria
+				-Comentarios
+				-Idioma
+				-----------
+				Acciones
+				-Crear()
+				-Publicar()
+				-Editar()
+				-Borrar()
+				---
+				-Compartir()
